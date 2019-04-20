@@ -1,17 +1,10 @@
-# Team-13 St. Louis Blues Physical Training Application
-This repository is for Capstone 2018-19.
+# Impact Physical Training Application v1.0.0
+This repository is for the native app for Impact PT solution (supporting web platform currently under dev)
 
-## Team Information
+## Product Owner
+### Kayla Armstrong (email: karmstrong23@ymail.com)
 
-| Item        | Value           |
-| ------------- |:-------------:|
-| Team Number | 13 |
-| Team Name | 5 Men and an App |
-| Assigned AI | Last, First (Update when assigned) |
-| Platform | iOS & Web |
-| Description | A "one-stop" app for physical therapy patients to help streamline their recovery process. |
-
-## Team Members
+## Lead Developers
 You can find information on our team, our roles, and our training plan(s) below.
 
 ### Rodgers, Austin (akrodger)
