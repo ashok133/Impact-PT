@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B920A82224A7770013076D /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920A72224A7770013076D /* PatientListViewController.swift */; };
+		01B920AA2224A7AA0013076D /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920A92224A7AA0013076D /* ProgressViewController.swift */; };
+		01B920B22224B0B00013076D /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920B12224B0B00013076D /* ExercisesViewController.swift */; };
+		01B920B42224B1D30013076D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920B32224B1D30013076D /* ProductViewController.swift */; };
+		01B920B82224B2D20013076D /* PhysicianProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920B72224B2D20013076D /* PhysicianProductViewController.swift */; };
+		01B920BA2224B33D0013076D /* PhysicianLimitationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920B92224B33D0013076D /* PhysicianLimitationsViewController.swift */; };
+		01B920BC2224B3930013076D /* PhysicianSetLimitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920BB2224B3930013076D /* PhysicianSetLimitsViewController.swift */; };
+		01B920BE2224B3DE0013076D /* PhysicianExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920BD2224B3DE0013076D /* PhysicianExercisesViewController.swift */; };
+		01B920C02224B4280013076D /* PhysicianEditLimitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920BF2224B4280013076D /* PhysicianEditLimitsViewController.swift */; };
+		01B920C22224B4EF0013076D /* PhysicianProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B920C12224B4EF0013076D /* PhysicianProfileViewController.swift */; };
+		01DDCE54224BFF7400230370 /* PhysicianEditProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DDCE53224BFF7400230370 /* PhysicianEditProductsViewController.swift */; };
+		01E2874022497E2900F5014D /* PhysProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2873F22497E2900F5014D /* PhysProductsViewController.swift */; };
+		01E2874222498EF600F5014D /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2874122498EF600F5014D /* AddProductViewController.swift */; };
+		81A1996F220F7B340056A98E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1996E220F7B340056A98E /* CalendarViewController.swift */; };
+		82E7255122483DF600537486 /* PhysicianCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7255022483DF600537486 /* PhysicianCalendarViewController.swift */; };
+		9784C50921F7867100DC839E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C50821F7867100DC839E /* AppDelegate.swift */; };
+		9784C50B21F7867100DC839E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C50A21F7867100DC839E /* ViewController.swift */; };
+		9784C50E21F7867100DC839E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9784C50C21F7867100DC839E /* Main.storyboard */; };
+		9784C51021F7867300DC839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9784C50F21F7867300DC839E /* Assets.xcassets */; };
+		9784C51E21F7867300DC839E /* Capstone_HomepageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C51D21F7867300DC839E /* Capstone_HomepageTests.swift */; };
+		9784C52921F7867300DC839E /* Capstone_HomepageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C52821F7867300DC839E /* Capstone_HomepageUITests.swift */; };
+		A408A34E2203A6D100F4EB49 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A408A34D2203A6D100F4EB49 /* ProfileViewController.swift */; };
+		A41223F8225E899800EFBD98 /* PreviousInjuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41223F7225E899800EFBD98 /* PreviousInjuryViewController.swift */; };
+		A426E2222214CF8A0038C92A /* PhysicianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426E2212214CF8A0038C92A /* PhysicianViewController.swift */; };
+		A429668D224042DD00D38F44 /* AddExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A429668C224042DD00D38F44 /* AddExerciseViewController.swift */; };
+		A429668F22404D1300D38F44 /* LimitationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A429668E22404D1300D38F44 /* LimitationsViewController.swift */; };
+		A43A74A2225A998B00456454 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43A74A1225A998B00456454 /* ProductDetailViewController.swift */; };
+		A48FA3A021FFC49900D1976C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48FA39F21FFC49900D1976C /* RegisterViewController.swift */; };
+		A495EB1F2231AE8D007A7EEB /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495EB1E2231AE8D007A7EEB /* ExerciseDetailViewController.swift */; };
+		A495EB212231BD1E007A7EEB /* ExerciseDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495EB202231BD1E007A7EEB /* ExerciseDatabaseViewController.swift */; };
+		A4F2489D2242EF97009C48D7 /* PhysicianProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2489C2242EF96009C48D7 /* PhysicianProgressViewController.swift */; };
+		A4F60C9422249ECC00571E25 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F60C9322249ECC00571E25 /* TermsViewController.swift */; };
+		A4F60C9622249EDC00571E25 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F60C9522249EDC00571E25 /* UpdateProfileViewController.swift */; };
+		A4F7079721F7DD53005581B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F7079621F7DD53005581B6 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9784C51A21F7867300DC839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9784C4FD21F7867000DC839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9784C50421F7867100DC839E;
+			remoteInfo = "Capstone Homepage";
+		};
+		9784C52521F7867300DC839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9784C4FD21F7867000DC839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9784C50421F7867100DC839E;
+			remoteInfo = "Capstone Homepage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B920A72224A7770013076D /* PatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		01B920A92224A7AA0013076D /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		01B920B12224B0B00013076D /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		01B920B32224B1D30013076D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		01B920B52224B2270013076D /* LimitationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitationsViewController.swift; sourceTree = "<group>"; };
+		01B920B72224B2D20013076D /* PhysicianProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianProductViewController.swift; sourceTree = "<group>"; };
+		01B920B92224B33D0013076D /* PhysicianLimitationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianLimitationsViewController.swift; sourceTree = "<group>"; };
+		01B920BB2224B3930013076D /* PhysicianSetLimitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianSetLimitsViewController.swift; sourceTree = "<group>"; };
+		01B920BD2224B3DE0013076D /* PhysicianExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianExercisesViewController.swift; sourceTree = "<group>"; };
+		01B920BF2224B4280013076D /* PhysicianEditLimitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianEditLimitsViewController.swift; sourceTree = "<group>"; };
+		01B920C12224B4EF0013076D /* PhysicianProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianProfileViewController.swift; sourceTree = "<group>"; };
+		01DDCE53224BFF7400230370 /* PhysicianEditProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianEditProductsViewController.swift; sourceTree = "<group>"; };
+		01E2873F22497E2900F5014D /* PhysProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysProductsViewController.swift; sourceTree = "<group>"; };
+		01E2874122498EF600F5014D /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		81A1996E220F7B340056A98E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		82E7255022483DF600537486 /* PhysicianCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianCalendarViewController.swift; sourceTree = "<group>"; };
+		9784C50521F7867100DC839E /* Capstone Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone Homepage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9784C50821F7867100DC839E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9784C50A21F7867100DC839E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9784C50D21F7867100DC839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9784C50F21F7867300DC839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9784C51421F7867300DC839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9784C51921F7867300DC839E /* Capstone HomepageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone HomepageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9784C51D21F7867300DC839E /* Capstone_HomepageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capstone_HomepageTests.swift; sourceTree = "<group>"; };
+		9784C51F21F7867300DC839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9784C52421F7867300DC839E /* Capstone HomepageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone HomepageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9784C52821F7867300DC839E /* Capstone_HomepageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capstone_HomepageUITests.swift; sourceTree = "<group>"; };
+		9784C52A21F7867300DC839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A408A34D2203A6D100F4EB49 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A41223F7225E899800EFBD98 /* PreviousInjuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousInjuryViewController.swift; sourceTree = "<group>"; };
+		A426E2212214CF8A0038C92A /* PhysicianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianViewController.swift; sourceTree = "<group>"; };
+		A429668C224042DD00D38F44 /* AddExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseViewController.swift; sourceTree = "<group>"; };
+		A429668E22404D1300D38F44 /* LimitationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitationsViewController.swift; sourceTree = "<group>"; };
+		A43A74A1225A998B00456454 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		A48FA39F21FFC49900D1976C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A495EB1E2231AE8D007A7EEB /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		A495EB202231BD1E007A7EEB /* ExerciseDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabaseViewController.swift; sourceTree = "<group>"; };
+		A4F2489C2242EF96009C48D7 /* PhysicianProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianProgressViewController.swift; sourceTree = "<group>"; };
+		A4F60C9322249ECC00571E25 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		A4F60C9522249EDC00571E25 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		A4F7079621F7DD53005581B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9784C50221F7867100DC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C51621F7867300DC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C52121F7867300DC839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9784C4FC21F7867000DC839E = {
+			isa = PBXGroup;
+			children = (
+				9784C50721F7867100DC839E /* Capstone Homepage */,
+				9784C51C21F7867300DC839E /* Capstone HomepageTests */,
+				9784C52721F7867300DC839E /* Capstone HomepageUITests */,
+				9784C50621F7867100DC839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9784C50621F7867100DC839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9784C50521F7867100DC839E /* Capstone Homepage.app */,
+				9784C51921F7867300DC839E /* Capstone HomepageTests.xctest */,
+				9784C52421F7867300DC839E /* Capstone HomepageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9784C50721F7867100DC839E /* Capstone Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				01DDCE53224BFF7400230370 /* PhysicianEditProductsViewController.swift */,
+				01B920A72224A7770013076D /* PatientListViewController.swift */,
+				01B920A92224A7AA0013076D /* ProgressViewController.swift */,
+				9784C50821F7867100DC839E /* AppDelegate.swift */,
+				9784C50A21F7867100DC839E /* ViewController.swift */,
+				9784C50C21F7867100DC839E /* Main.storyboard */,
+				01E2874122498EF600F5014D /* AddProductViewController.swift */,
+				01E2873F22497E2900F5014D /* PhysProductsViewController.swift */,
+				82E7255022483DF600537486 /* PhysicianCalendarViewController.swift */,
+				01B920C12224B4EF0013076D /* PhysicianProfileViewController.swift */,
+				01B920BF2224B4280013076D /* PhysicianEditLimitsViewController.swift */,
+				01B920BD2224B3DE0013076D /* PhysicianExercisesViewController.swift */,
+				01B920BB2224B3930013076D /* PhysicianSetLimitsViewController.swift */,
+				01B920B92224B33D0013076D /* PhysicianLimitationsViewController.swift */,
+				01B920B72224B2D20013076D /* PhysicianProductViewController.swift */,
+				01B920B52224B2270013076D /* LimitationsViewController.swift */,
+				A429668E22404D1300D38F44 /* LimitationsViewController.swift */,
+				01B920B32224B1D30013076D /* ProductViewController.swift */,
+				01B920B12224B0B00013076D /* ExercisesViewController.swift */,
+				81A1996E220F7B340056A98E /* CalendarViewController.swift */,
+				9784C50F21F7867300DC839E /* Assets.xcassets */,
+				9784C51421F7867300DC839E /* Info.plist */,
+				A4F7079621F7DD53005581B6 /* LoginViewController.swift */,
+				A4F60C9522249EDC00571E25 /* UpdateProfileViewController.swift */,
+				A4F60C9322249ECC00571E25 /* TermsViewController.swift */,
+				A48FA39F21FFC49900D1976C /* RegisterViewController.swift */,
+				A408A34D2203A6D100F4EB49 /* ProfileViewController.swift */,
+				A426E2212214CF8A0038C92A /* PhysicianViewController.swift */,
+				A495EB1E2231AE8D007A7EEB /* ExerciseDetailViewController.swift */,
+				A495EB202231BD1E007A7EEB /* ExerciseDatabaseViewController.swift */,
+				A429668C224042DD00D38F44 /* AddExerciseViewController.swift */,
+				A4F2489C2242EF96009C48D7 /* PhysicianProgressViewController.swift */,
+				A43A74A1225A998B00456454 /* ProductDetailViewController.swift */,
+				A41223F7225E899800EFBD98 /* PreviousInjuryViewController.swift */,
+			);
+			path = "Capstone Homepage";
+			sourceTree = "<group>";
+		};
+		9784C51C21F7867300DC839E /* Capstone HomepageTests */ = {
+			isa = PBXGroup;
+			children = (
+				9784C51D21F7867300DC839E /* Capstone_HomepageTests.swift */,
+				9784C51F21F7867300DC839E /* Info.plist */,
+			);
+			path = "Capstone HomepageTests";
+			sourceTree = "<group>";
+		};
+		9784C52721F7867300DC839E /* Capstone HomepageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9784C52821F7867300DC839E /* Capstone_HomepageUITests.swift */,
+				9784C52A21F7867300DC839E /* Info.plist */,
+			);
+			path = "Capstone HomepageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9784C50421F7867100DC839E /* Capstone Homepage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9784C52D21F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone Homepage" */;
+			buildPhases = (
+				9784C50121F7867100DC839E /* Sources */,
+				9784C50221F7867100DC839E /* Frameworks */,
+				9784C50321F7867100DC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capstone Homepage";
+			productName = "Capstone Homepage";
+			productReference = 9784C50521F7867100DC839E /* Capstone Homepage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9784C51821F7867300DC839E /* Capstone HomepageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9784C53021F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone HomepageTests" */;
+			buildPhases = (
+				9784C51521F7867300DC839E /* Sources */,
+				9784C51621F7867300DC839E /* Frameworks */,
+				9784C51721F7867300DC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9784C51B21F7867300DC839E /* PBXTargetDependency */,
+			);
+			name = "Capstone HomepageTests";
+			productName = "Capstone HomepageTests";
+			productReference = 9784C51921F7867300DC839E /* Capstone HomepageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9784C52321F7867300DC839E /* Capstone HomepageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9784C53321F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone HomepageUITests" */;
+			buildPhases = (
+				9784C52021F7867300DC839E /* Sources */,
+				9784C52121F7867300DC839E /* Frameworks */,
+				9784C52221F7867300DC839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9784C52621F7867300DC839E /* PBXTargetDependency */,
+			);
+			name = "Capstone HomepageUITests";
+			productName = "Capstone HomepageUITests";
+			productReference = 9784C52421F7867300DC839E /* Capstone HomepageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9784C4FD21F7867000DC839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Austin Rodgers";
+				TargetAttributes = {
+					9784C50421F7867100DC839E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9784C51821F7867300DC839E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9784C50421F7867100DC839E;
+					};
+					9784C52321F7867300DC839E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9784C50421F7867100DC839E;
+					};
+				};
+			};
+			buildConfigurationList = 9784C50021F7867000DC839E /* Build configuration list for PBXProject "Capstone Homepage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9784C4FC21F7867000DC839E;
+			productRefGroup = 9784C50621F7867100DC839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9784C50421F7867100DC839E /* Capstone Homepage */,
+				9784C51821F7867300DC839E /* Capstone HomepageTests */,
+				9784C52321F7867300DC839E /* Capstone HomepageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9784C50321F7867100DC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9784C51021F7867300DC839E /* Assets.xcassets in Resources */,
+				9784C50E21F7867100DC839E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C51721F7867300DC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C52221F7867300DC839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9784C50121F7867100DC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429668F22404D1300D38F44 /* LimitationsViewController.swift in Sources */,
+				01B920BA2224B33D0013076D /* PhysicianLimitationsViewController.swift in Sources */,
+				82E7255122483DF600537486 /* PhysicianCalendarViewController.swift in Sources */,
+				81A1996F220F7B340056A98E /* CalendarViewController.swift in Sources */,
+				01E2874022497E2900F5014D /* PhysProductsViewController.swift in Sources */,
+				01DDCE54224BFF7400230370 /* PhysicianEditProductsViewController.swift in Sources */,
+				A4F7079721F7DD53005581B6 /* LoginViewController.swift in Sources */,
+				A495EB1F2231AE8D007A7EEB /* ExerciseDetailViewController.swift in Sources */,
+				9784C50B21F7867100DC839E /* ViewController.swift in Sources */,
+				A408A34E2203A6D100F4EB49 /* ProfileViewController.swift in Sources */,
+				01B920B82224B2D20013076D /* PhysicianProductViewController.swift in Sources */,
+				01B920BE2224B3DE0013076D /* PhysicianExercisesViewController.swift in Sources */,
+				9784C50921F7867100DC839E /* AppDelegate.swift in Sources */,
+				01B920BC2224B3930013076D /* PhysicianSetLimitsViewController.swift in Sources */,
+				01B920C22224B4EF0013076D /* PhysicianProfileViewController.swift in Sources */,
+				A48FA3A021FFC49900D1976C /* RegisterViewController.swift in Sources */,
+				01B920C02224B4280013076D /* PhysicianEditLimitsViewController.swift in Sources */,
+				A43A74A2225A998B00456454 /* ProductDetailViewController.swift in Sources */,
+				A41223F8225E899800EFBD98 /* PreviousInjuryViewController.swift in Sources */,
+				A4F60C9622249EDC00571E25 /* UpdateProfileViewController.swift in Sources */,
+				01E2874222498EF600F5014D /* AddProductViewController.swift in Sources */,
+				01B920B42224B1D30013076D /* ProductViewController.swift in Sources */,
+				01B920B22224B0B00013076D /* ExercisesViewController.swift in Sources */,
+				A426E2222214CF8A0038C92A /* PhysicianViewController.swift in Sources */,
+				A429668D224042DD00D38F44 /* AddExerciseViewController.swift in Sources */,
+				01B920AA2224A7AA0013076D /* ProgressViewController.swift in Sources */,
+				A4F60C9422249ECC00571E25 /* TermsViewController.swift in Sources */,
+				01B920A82224A7770013076D /* PatientListViewController.swift in Sources */,
+				A4F2489D2242EF97009C48D7 /* PhysicianProgressViewController.swift in Sources */,
+				A495EB212231BD1E007A7EEB /* ExerciseDatabaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C51521F7867300DC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9784C51E21F7867300DC839E /* Capstone_HomepageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9784C52021F7867300DC839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9784C52921F7867300DC839E /* Capstone_HomepageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9784C51B21F7867300DC839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9784C50421F7867100DC839E /* Capstone Homepage */;
+			targetProxy = 9784C51A21F7867300DC839E /* PBXContainerItemProxy */;
+		};
+		9784C52621F7867300DC839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9784C50421F7867100DC839E /* Capstone Homepage */;
+			targetProxy = 9784C52521F7867300DC839E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9784C50C21F7867100DC839E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9784C50D21F7867100DC839E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9784C52B21F7867300DC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9784C52C21F7867300DC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9784C52E21F7867300DC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46FCR583FH;
+				INFOPLIST_FILE = "Capstone Homepage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joeyi0606-gmail.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9784C52F21F7867300DC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46FCR583FH;
+				INFOPLIST_FILE = "Capstone Homepage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joeyi0606-gmail.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9784C53121F7867300DC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Capstone HomepageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinrodgers.Capstone-HomepageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Homepage.app/Capstone Homepage";
+			};
+			name = Debug;
+		};
+		9784C53221F7867300DC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Capstone HomepageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinrodgers.Capstone-HomepageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Homepage.app/Capstone Homepage";
+			};
+			name = Release;
+		};
+		9784C53421F7867300DC839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Capstone HomepageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinrodgers.Capstone-HomepageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone Homepage";
+			};
+			name = Debug;
+		};
+		9784C53521F7867300DC839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Capstone HomepageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.austinrodgers.Capstone-HomepageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone Homepage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9784C50021F7867000DC839E /* Build configuration list for PBXProject "Capstone Homepage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9784C52B21F7867300DC839E /* Debug */,
+				9784C52C21F7867300DC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9784C52D21F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone Homepage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9784C52E21F7867300DC839E /* Debug */,
+				9784C52F21F7867300DC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9784C53021F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone HomepageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9784C53121F7867300DC839E /* Debug */,
+				9784C53221F7867300DC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9784C53321F7867300DC839E /* Build configuration list for PBXNativeTarget "Capstone HomepageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9784C53421F7867300DC839E /* Debug */,
+				9784C53521F7867300DC839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9784C4FD21F7867000DC839E /* Project object */;
+}
